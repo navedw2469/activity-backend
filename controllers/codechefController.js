@@ -28,7 +28,7 @@ const getCodechefData = async () => {
     return getFormatedCodechefData(response.data);
   } catch (error) {
     return {
-      error: "An error occurred while fetching data",
+      error: "An error occurred while fetching codechef data",
       details: error.message,
     };
   }
